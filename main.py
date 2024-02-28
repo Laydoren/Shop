@@ -6,7 +6,7 @@ import json
 class OnlineStoreApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Online Store")
+        self.root.title("Онлайн магазин")
         self.users = self.load_users()
         self.current_user = None
 
